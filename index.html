@@ -1,53 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="calculadora" >
-     
-     <div id="res">
-        <p class="paragrafo" id="result">1234567895584415858555555</p> 
-    
-     </div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Calculator -->
+    <div class="calculator">
+      <!-- Display -->
+      <div class="calculator-display">
+        <h1 class="h1">0</h1>
+      </div>
 
-     <div id="operadores">
-         <input type="button" value="7" id="add" class="color1">
-         <input type="button" value="-" class="color2">
-         <input type="button" value="x" class="color3">
-         <input type="button" value=" ÷" class="color4">
-     </div>
-     <div id="numero1">
-        <input type="button" value="7" id="primeiro" class="color5">
-        <input type="button" value="8" id="segundo" class="color6">
-        <input type="button" value="9" id="terceiro" class="color7">
-     </div>
-     <div id="numero2">
-        <input type="button" value="4" class="color8">
-        <input type="button" value="5" class="color9">
-        <input type="button" value="6" class="color10">
-     </div>
-     <div id="numero3">
-        <input type="button" value="1" class="color11">
-        <input type="button" value="2" class="color12">
-        <input type="button" value="3" class="color13">
-     </div>
-     <div id="numero4">
-        <input type="button" value="." class="color14">
-        <input type="button" value="0" class="color15">
-        <input type="button" value="C" class="color16">
-       
-
-     </div>
-     <div id="ultimo">
-        <input type="button" value="=" class="igual">
-     </div>
+      <!-- Buttons -->
+      <div class="calculator-buttons">
+        <button class="operator" value="+">+</button>
+        <button class="operator" value="-">-</button>
+        <button class="operator" value="*">*</button>
+        <button class="operator" value="/">/</button>
+        <button value="7">7</button>
+        <button value="8">8</button>
+        <button value="9">9</button>
+        <button class="limpar" onclick="limpar()"><</button>
+        <button value="4">4</button>
+        <button value="5">5</button>
+        <button value="6">6</button>
+        <button value="1">1</button>
+        <button value="2">2</button>
+        <button value="3">3</button>
+        <button class="decimal" value=".">.</button>
+        <button value="0">0</button>
+        <button class="clear" id="clear">C</button>
+        <button class="operator equal-sign" value="=" id="operator">=</button>
+      </div>
     </div>
 
     <script src="calculadora.js"></script>
-    
-</body>
+  </body>
 </html>
