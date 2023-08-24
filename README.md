@@ -1,5 +1,5 @@
 #
-Calculator
+*Calculator*
 Introduction
 
 In this calculator project I will present a software application that aims to provide a versatile and easy-to-use calculation tool for users of all abilities. Calculator will help users to perform simple and basic math calculations
